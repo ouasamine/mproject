@@ -30,15 +30,27 @@
       <form action="#" id="survey-form">
         <div class="input-group">
           <label id="name-label" for="name">Name</label>
-          <input type="text" id="name" placeholder="Enter your name" required/>
+          <input type="text" id="name" placeholder="Enter your name" required />
         </div>
         <div class="input-group">
           <label id="email-label" for="email">Email</label>
-          <input type="email" id="email" placeholder="Enter your email" required />
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
         </div>
         <div class="input-group">
           <label id="number-label" for="email">Age(optional)</label>
-          <input type="number" id="number" placeholder="Age" max="" min="" required />
+          <input
+            type="number"
+            id="number"
+            placeholder="Age"
+            max=""
+            min=""
+            required
+          />
         </div>
         <div class="input-group">
           <label id="email-label" for="email">Email</label>
@@ -49,10 +61,85 @@
             <option>Full Time Learner</option>
             <option>Prefer Not to say</option>
             <option>Other</option>
-            
           </select>
         </div>
-        <input type="submit" >
+        <label for="">Would you recommend freeCodeCamp to a friend?</label>
+        <div class="input-group">
+          <div class="recommend">
+            <input type="radio" name="recommend" />
+            <label for=""> Definitely</label>
+          </div>
+          <div class="recommend">
+            <input type="radio" name="recommend" />
+            <label for="">Maybe</label>
+          </div>
+          <div class="recommend">
+            <input type="radio" name="recommend" />
+            <label for=""> Not sure</label>
+          </div>
+        </div>
+        <label for=""
+          >What would you like to see improved? (Check all that apply)</label
+        >
+        <div class="input-group">
+          <div class="improve">
+            <input type="checkbox" name="improve" />
+            <label for="">Front-end Projects</label>
+          </div>
+          <div class="improve">
+            <input type="checkbox" name="improve" />
+            <label for="">Back-end Projects</label>
+          </div>
+          <div class="improve">
+            <input type="checkbox" name="improve" />
+            <label for="">Data Visualization</label>
+          </div>
+          <div class="improve">
+            <input type="checkbox" name="improve" />
+            <label for="">Challenges</label>
+          </div>
+          <div class="improve">
+            <input type="checkbox" name="improve" />
+            <label for="">Open Source Community</label>
+          </div>
+          <div class="improve">
+            <input type="checkbox" name="improve" />
+            <label for="">Gitter help rooms</label>
+          </div>
+          <div class="improve">
+            <input type="checkbox" name="improve" />
+            <label for="">Videos</label>
+          </div>
+          <div class="improve">
+            <input type="checkbox" name="improve" />
+            <label for="">City Meetups</label>
+          </div>
+          <div class="improve">
+            <input type="checkbox" name="improve" />
+            <label for="">Wiki</label>
+          </div>
+          <div class="improve">
+            <input type="checkbox" name="improve" />
+            <label for="">Forum</label>
+          </div>
+          <div class="improve">
+            <input type="checkbox" name="improve" />
+            <label for="">Additional Courses</label>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label for="">Any comments or suggestions? </label>
+          <div class="">
+            <textarea
+              name="additional-comments"
+              id="additional-comments"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
+        <input type="submit" id="submit" />
       </form>
     </div>
 
