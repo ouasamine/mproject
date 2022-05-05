@@ -1,20 +1,53 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-body{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    background: rgb(143, 137, 137);
+body {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background: rgb(143, 137, 137);
 }
-#title{
-    margin-top: 15vh;
+#title {
+  margin-top: 15vh;
 }
-#description{
-    margin: 3vh 0vh;
+#description {
+  margin: 3vh 0vh;
 }
-#survey-form{
-    background: rgb(82, 77, 77);
+#survey-form {
+  background: rgb(82, 77, 77);
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+}
+.input-group {
+  margin: 11px 0px;
+}
+
+.input-group > label {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.input-group > input,
+.input-group > select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.input-group > div > textarea {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#submit {
+  width: 100%;
+  padding: 9px 0;
+  color: #e1d5d5;
+  background: green;
+  font-weight: 300;
+  font-size: 16px;
 }
