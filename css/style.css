@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: rgb(143, 137, 137);
+}
+#title{
+    margin-top: 15vh;
+}
+#description{
+    margin: 3vh 0vh;
+}
+#survey-form{
+    background: rgb(82, 77, 77);
+}
