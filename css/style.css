@@ -6,24 +6,39 @@
 body {
   text-align: center;
   font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
   color: white;
-  background: rgb(143, 137, 137);
+  background: url('../background.jpeg') no-repeat fixed;
+  
+
+}
+.page-wrapper{
+  background: rgba(70, 70, 219, 0.8);
+  opacity: 0.8;
+  padding-top: 12vh;
 }
 #title {
-  margin-top: 15vh;
+  
+  font-weight: 100;
+  font-size: 2.1rem;
 }
 #description {
-  margin: 3vh 0vh;
+  margin: 3vh 0vh 6vh 0vh;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 18px;
 }
 #survey-form {
-  background: rgb(82, 77, 77);
-  width: 80%;
+  background: #1b1b32;
+  opacity: 0.99;
+  width: 55%;
   margin: auto;
   text-align: left;
-  padding: 20px;
+  padding: 30px 40px;
+  border-radius: 4px;
 }
 .input-group {
-  margin: 11px 0px;
+  margin: 20px 0px;
 }
 
 .input-group > label {
@@ -36,18 +51,24 @@ body {
   width: 100%;
   padding: 8px;
   border-radius: 5px;
+  border: 1px solid;
 }
 
 .input-group > div > textarea {
   width: 100%;
   border-radius: 5px;
+  resize: vertical;
 }
 
 #submit {
   width: 100%;
-  padding: 9px 0;
-  color: #e1d5d5;
-  background: green;
-  font-weight: 300;
-  font-size: 16px;
+  padding: 15px 0;
+  color: white;
+  font-weight: 550;
+  background: rgb(81, 223, 46);
+  font-size: 18px;
+  border: 1px solid rgb(81, 223, 46);
+  border-radius: 3px;
+  margin-bottom: 7vh;
+  cursor: pointer;
 }
